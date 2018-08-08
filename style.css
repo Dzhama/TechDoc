@@ -1,0 +1,46 @@
+body {
+    box-sizing: border-box;
+}
+header {
+    font-size: 26px;
+}
+/* NAVBAR */
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 290px;
+    width: 300px;
+    height: 100%;
+    border-right: 1px solid grey;
+}
+.title {
+    padding: 15px 0 5px 30px; 
+}
+.list {
+    list-style: none;
+    line-height: 2;
+    font-size: 18px;
+    padding: 0;
+}
+.list-item {
+    border-top: 1px solid grey;
+}
+.list-item a {
+    color: black;
+    text-decoration: none;
+    padding:  5px 0 5px 30px;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+}
+pre {
+    background-color: rgb(232,232,232);
+    border-radius: 5px;
+}
+
+
+
